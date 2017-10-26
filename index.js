@@ -108,10 +108,11 @@ rtm.start();
 console.log("RtmClient started.")
 
 rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
-  if (isZawgyi(message.text)) {
-  	rtm.sendMessage(Rabbit.zg2uni(message.text), message.channel);
-  } else if (isMyanmar(message.text)) {
-  	rtm.sendMessage(Rabbit.uni2zg(message.text), message.channel);
+  var inputText = message.text || '';
+  if (isZawgyi(inputText)) {
+    rtm.sendMessage(Rabbit.zg2uni(inputText), message.channel);
+  } else if (isMyanmar(inputText)) {
+    rtm.sendMessage(Rabbit.uni2zg(inputText), message.channel);
   }
 });
 console.log("RtmClient listening messages.")
