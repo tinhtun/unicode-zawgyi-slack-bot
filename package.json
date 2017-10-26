@@ -1,0 +1,21 @@
+{
+  "name": "uni-zawgyi-bot",
+  "version": "1.0.0",
+  "description": "Slack bot to convert unicode and zawgyi text ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slackbot",
+    "myanmar",
+    "zawgyi"
+  ],
+  "author": "Tin Htun",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.14.1",
+    "rabbit-node": "^1.0.2"
+  }
+}
