@@ -1,7 +1,7 @@
 {
-  "name": "uni-zawgyi-bot",
+  "name": "unicode-zawgyi-slack-bot",
   "version": "1.0.0",
-  "description": "Slack bot to convert unicode and zawgyi text ",
+  "description": "Slack bot to convert unicode to zawgyi text and vice versa",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
