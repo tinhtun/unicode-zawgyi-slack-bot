@@ -2,9 +2,9 @@
   "name": "unicode-zawgyi-slack-bot",
   "version": "1.0.0",
   "description": "Slack bot to convert unicode to zawgyi text and vice versa",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@slack/client": "^3.14.1",
+    "knayi-myscript": "^2.2.0",
     "rabbit-node": "^1.0.2"
   }
 }

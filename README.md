@@ -1,18 +1,20 @@
-# unicode-zawgyi-slack-bot
+# Unicode Zawgyi Slack Bot
 Slack bot to convert unicode to zawgyi font and vice versa
 
-# How to Run
+## How to Run
 ``` bash
 $ export SLACK_BOT_TOKEN=xoxb-XXXXXXXXXXXXXXXXXXX
 $ pm2 start index.js
 ```
 
-# ToDo
-- [ ] Font detection got wrong sometimes. Try knayi-myscript from npm.
+## To Do
+- [x] Font detection got wrong sometimes. Try knayi-myscript from npm.
 - [ ] To publish in Slack App Store.
 
-# Credits
+## Credits
 - https://github.com/Rabbit-Converter/Rabbit-Node
-- https://github.com/sanlinnaing/MUA-Web-Unicode-Converter
+- https://github.com/greenlikeorange/knayi-myscript
 
-__(if any concern, reach me through tinhtun.86@gmail.com)__
+> If any concern, reach me through tinhtun.86@gmail.com
+>
+
