@@ -7,6 +7,10 @@ $ export SLACK_BOT_TOKEN=xoxb-XXXXXXXXXXXXXXXXXXX
 $ pm2 start index.js
 ```
 
+# ToDo
+- [ ] Font detection got wrong sometimes. Try knayi-myscript from npm.
+- [ ] To publish in Slack App Store.
+
 # Credits
 - https://github.com/Rabbit-Converter/Rabbit-Node
 - https://github.com/sanlinnaing/MUA-Web-Unicode-Converter
